@@ -1,0 +1,23 @@
+本文件夹存储项目用于实现图像聚类分割算法：
+1.K-means 及 k值的自动确定（calinski_harabasz_score）
+2.Mean Shift
+
+文件包括：
+  1.主程序
+    main.py
+  2.聚类分割算法程序
+    K_Means.py  Mean_Shift.py
+  3.辅助程序
+    Open_Img.py
+  4.示例图像数据  001.jpg
+  
+参考：
+  k_means聚类效果评价指标：
+    https://blog.csdn.net/u012328159/article/details/86554833
+  PIL及OpenCV打开图像相互转换：
+    https://zhuanlan.zhihu.com/p/87441580
+  K-means及Mean Shift原理：
+    https://www.bilibili.com/video/BV13a4y1j7uJ/?spm_id_from=333.788
+  K-means算法：
+    （PIL）https://blog.csdn.net/Nicht_sehen/article/details/89156215
+    （OpenCV）https://bbs.huaweicloud.com/blogs/296722
