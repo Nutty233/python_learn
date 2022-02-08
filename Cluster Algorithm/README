@@ -1,4 +1,6 @@
-本文件夹存储项目用于实现图像聚类分割算法：
+本文件夹存储项目基于Python实现
+
+用于学习及实现图像聚类分割算法：
 1.K-means 及 k值的自动确定（calinski_harabasz_score）
 2.Mean Shift
 
