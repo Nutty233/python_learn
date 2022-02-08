@@ -7,14 +7,13 @@ PC存储位置：
 1.K-means 及 k值的自动确定（calinski_harabasz_score）
 2.Mean Shift
 
-文件包括：
+备份文件包括：
   1.主程序
     main.py
   2.聚类分割算法程序
     K_Means.py  Mean_Shift.py
   3.辅助程序
     Open_Img.py
-  4.示例图像数据  001.jpg
   
 参考：
   k_means聚类效果评价指标：
