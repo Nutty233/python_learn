@@ -34,4 +34,4 @@ for i in range(100):
     # 等效输入：writer.add_scalar("y=x", 2*i, i)
     # 每改变一次内核，一定要改标题或删除原log文件
 
-writer.close()
+writer.close()  # 关闭write
