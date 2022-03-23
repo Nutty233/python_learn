@@ -31,6 +31,15 @@
     
     **DatasetTransform.py**
         利用transform批处理Pytorch官网提供的开源数据集
+    
+    **Dataloader.py**
+        利用Dataloader创建数据集加载工具，用于为网络提供数据输入
+        实际训练中，一般采用程序中相同的策略：利用for循环将imgs传入神经网络作为输入
+    
+    **nn_module.py**
+        神经网络的基本骨架——nn.Module的使用(利用Torch.nn中的containers进行神经网络骨架搭建) 
+        前向传播：input-->forward-->output
+        非线性处理：relu；卷积conv
 
 
 ## 教程及数据集出处：
