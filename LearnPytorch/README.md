@@ -1,27 +1,27 @@
 # PyTorch基础学习相关
-    本文件于2022/03/18创建于本地，于2022/03/19首次上传至github  
-    本文件夹用于存储PyTorch基础学习相关数据集及代码  
-    其中数据集由教程提供，代码部分依照教程手动输入  
-    并依照自己的理解进行修改及备注，与视频教程稍有不同  
+本文件于2022/03/18创建于本地，于2022/03/19首次上传至github  
+本文件夹用于存储PyTorch基础学习相关数据集及代码  
+其中数据集由教程提供，代码部分依照教程手动输入  
+并依照自己的理解进行修改及备注，与视频教程稍有不同  
 
 ## 文件夹程序及其作用：
 ### 根据课程引导完成：
-    **main.py: **
+    **main.py:**
         判断Torch安装是否成功
 
-    **ReadData.py:**
+    **ReadData.py**
         创建以PIL为核心的图像打开类及数据集的调用和合并
         (也可用CV2，但需注意后续转换为numpy格式时的提前转换)
 
-    **RenameDataset.py:**
+    **RenameDataset.py**
         用于依照训练集生成相应标注文件(.txt)
 
-    **TestTensorboard.py:**
+    **TestTensorboard.py**
         利用TenserBoard的SummaryWriter函数（快速拥挤功能）
         生成logs文件以完成标量数据统计分析及直观纵览图像输入情况
         (需要在控制台输入指令在网页中打开)
 
-    **TestTransformd.py:**
+    **TestTransformd.py**
         调用TestTransformd中的函数(工具)用于图像的格式及尺寸变换等操作
         通过输出Tensor图像属性理解tensor类型含有神经网络编程所需参数的作用
 
