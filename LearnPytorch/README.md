@@ -154,12 +154,23 @@
                e. 采用特定方式显示效果（print，writer）
             10. 保存模型
             
+    **train_gpu_1.py**
+        利用GPU训练模型：
+        方法 1：[.cuda()]
+            将网络模型，数据（输入，标注），损失函数分别调用.cuda()函数后返回值
+            （对于没有GPU的电脑可以使用Google的Colaboratory使用联网免费GPU）
+            （新建笔记本，界面和jupyter相似-->修改-->笔记本设置-->GPU，每周30h免费时长）
+            （!nvidia-smi查看网络显卡信息）
+        方法 2：[.to(device)]（更常用）
+            将网络转移到GPU中
+            使用CPU：Device = torch.device("CPU")
+            指定显卡：torch.device("cuda:0")/不指定显卡：Torch.device("cuda")
+            定义device并用.to(device)替代.cuda()
 
-              采用GPU训练
 
-              完整的模型验证套路
+        完整的模型验证套路
 
-              以GitHub代码为例，观摩开源项目，学习优秀代码
+        以GitHub代码为例，观摩开源项目，学习优秀代码
         
 
 ### 个人练习：
